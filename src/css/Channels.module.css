@@ -1,0 +1,31 @@
+.channelCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor:pointer;
+}
+
+.logo {
+    width: 50%;
+    height: auto;
+
+    margin:1rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    display: block;
+}
+
+h1{
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    
+}

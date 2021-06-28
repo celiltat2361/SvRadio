@@ -1,0 +1,17 @@
+.searchBox {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchInput {
+    padding: 0.7rem;
+    border-radius: 2rem;
+    margin: 0 1rem;
+    font-size: large;
+}
+
+input:focus {
+    border:none;
+}

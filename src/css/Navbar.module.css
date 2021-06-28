@@ -1,0 +1,96 @@
+
+.navbar{
+    background-color: rgb(173, 173, 173);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.menu {
+    display: none;
+}
+
+
+.navItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0.7rem;
+    margin:0.5rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.navItem:hover {
+    background: rgb(186, 188, 189);
+    color:rgb(0, 0, 0);
+    border-radius: 5px;
+    
+}
+
+.dropstatus {
+    justify-content: flex-end;
+    
+}
+
+.logoImg {
+    width: 250px;
+    height: auto;
+    padding: 0.5rem;
+    margin: 0.8rem;;
+}
+.dropMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.icon{
+    margin: 0.5rem; 
+}
+.icon a{
+    font-size: 2rem;
+}
+.anticon {
+    margin: 0.5rem;
+}
+.baricon{
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.baricon:hover {
+    background: rgb(186, 188, 189);
+}
+.closeIcon {
+    font-size: 2rem;
+    color:black;
+    background: white;
+    border-radius: 2rem;
+    margin: 0.5rem;
+    
+}
+
+
+
+.closeIcon:hover {
+    color: whitesmoke;
+    background: black;
+}
+
+@media (min-width: 1250px) {
+
+    .baricon, .dropMenu {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

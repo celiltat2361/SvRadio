@@ -1,0 +1,93 @@
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactInformation {
+    padding: 1rem;
+
+}
+
+
+.btnLink {
+    text-decoration: none;
+    background-color: var(--primary-button);
+    color: white;
+    font-weight: bold;
+    font-family: 'Merriweather';
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0.3rem 2rem;
+}
+
+.btnLink:hover {
+    background-color: white;
+    color: var(--primary-button);
+    border: 1px solid var(--primary-button);
+}
+
+.loggedOutWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginLink {
+    width: 120px;
+    text-decoration: none;
+    background-color:var(--primary-button);
+    color: white;
+    font-weight: bold;
+    font-family: 'Merriweather';
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.loginLink:hover {
+    background-color: white;
+    color: var(--primary-button);
+    border: 1px solid var(--primary-button);
+}
+
+.registerLink {
+    text-decoration: none;
+    color:var(--primary-button);
+    margin-top: 5px;
+}
+
+.info{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 1rem;
+}
+.info h4 {
+    width: 200px;
+}
+
+
+
+@media (min-width: 992px) {
+    .infoContainer {
+        flex-wrap: wrap;
+    }
+}
+

@@ -1,0 +1,53 @@
+.popUpContainer {
+    width: 80%;
+    height: 50%;
+    background: rgba(133, 43, 43, 0.9);
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.popUpContainer h2 {
+    padding:1rem;
+}
+
+
+.loginLink {
+    width: 120px;
+    text-decoration: none;
+    background-color:var(--primary-button);
+    color: white;
+    font-weight: bold;
+    font-family: 'Merriweather';
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.loginLink:hover {
+    background-color: white;
+    color: var(--primary-button);
+    border: 1px solid var(--primary-button);
+}
+
+.registerLink {
+    text-decoration: none;
+    color:white;
+    margin-top: 5px;
+}
+
+@media (min-width: 992px) {
+    .popUpContainer {
+        width: 50%;
+    }
+}
+
+
+

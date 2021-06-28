@@ -1,0 +1,64 @@
+.programContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image {
+    height: auto;
+    cursor: pointer;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40px;
+    margin: 2rem 2rem;
+    text-align: center;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+    border-radius: 30px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+  
+.container {
+    padding: 16px 6px;
+}
+
+
+@media (min-width: 375px) {
+    
+    .card {
+        margin:1rem;
+        width: 120px;
+    }
+    .logo {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    .card {
+        margin:2rem;
+        width: 150px;
+        height: 200px;
+    } 
+    .logo {
+        width: 70%;
+    }
+}
+
+@media (min-width: 992px) {
+   
+}
+   
+
+
+@media (min-width: 1200px) {
+    
+}

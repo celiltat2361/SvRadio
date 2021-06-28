@@ -1,0 +1,114 @@
+.progDetails{
+    position: relative;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    
+}
+
+.sectionA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem; 
+}
+
+
+.sectionB {
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+}
+.sectionB p{
+    margin: 1rem;
+}
+.sectionB h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+
+.url {
+    text-decoration: none;
+    padding: 1rem;
+    background-color: black;
+    color : white;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 1rem;
+    margin: 1rem;
+   
+}
+.url:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);  
+    transition: 0.4s;
+}
+
+.programImage {
+    width: 120px;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.addButton {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.socialMediaIcons {
+    font-size: 3rem;
+}
+
+.socialMediaIcons a{
+    color: black;
+    margin: 1rem; 
+}
+.socialMediaIcons a:hover{
+    color: rgb(66, 65, 65);
+    
+}
+.back {
+    color:black;
+    border-radius: 25px; 
+    padding: 0.7rem;
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+ }
+ 
+ .back:hover {
+     background: white;
+     color:rgb(202, 52, 52);
+ }
+
+
+.description{
+    width: 340px;
+    padding: 1rem;
+}
+
+.errorMessage {
+    margin:1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    background: rgb(253, 204, 192);
+    color: red;
+    font-size: large;
+    font-weight: 700;
+}
+.registerMsg {
+    margin:1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    background: rgb(152, 212, 230);
+    color: rgb(0, 15, 150);
+    font-size: large;
+    font-weight: 700;
+}
+

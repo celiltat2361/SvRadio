@@ -1,0 +1,32 @@
+.programWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+.categorycontainer {
+    position: relative;
+}
+.allProgs {
+    margin-top: 2rem;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.back {
+    color:black;
+    border-radius: 25px; 
+    padding: 0.7rem;
+    cursor: pointer;
+    position: absolute;
+    left:10px;
+ }
+ 
+ .back:hover {
+     background: white;
+     color:rgb(202, 52, 52);
+ }
